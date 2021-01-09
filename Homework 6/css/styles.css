@@ -211,7 +211,7 @@ img {
     bottom: 0;
     right: 0;
     top: 0;
-    background: #46bfa9;
+    background: #95e1d3;
 
 }
 .card-item:hover .image-overlay{
@@ -262,7 +262,7 @@ img {
     justify-content: center;
 }
 .image-overlay-icons-bg:hover {
-    background-color: aquamarine;
+    background-color: #95e1d3fa;
 }
 .image-overlay-icons-bg {
     display: flex;
@@ -277,24 +277,82 @@ img {
     margin: 0;
     padding: 0;
 }
-
+.card-description {
+    margin-top: 30px;
+    text-align: center;
+}
+.member-name {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+      
+}
+.member-occupation {
+    margin-top: 18px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    font-style: italic;
+    line-height: 1;
+      
+}
 
 .footer-block {
+    display: flex;
+    justify-content: space-between;
     height: 100%;
-    background-color: #323232;
-    padding-top: 38px;
-    padding-bottom: 38px;
+    border-top: 1px solid rgb(229, 229, 229);
+    margin-top: 70px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
     
 }
 .all-rights-reserved {
     margin: 0 auto;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgb(254, 254, 254);
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
     line-height: 1;
-    text-align: center;
-      
 }
 .colortext {
     color: #46bfa9;
+}
+.contacting-form {
+    display: flex;
+    align-items: center;
+}
+    
+.e-mail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    border-right: none;
+    width: 230px;
+    height: 38px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(204, 204, 204);
+    font-style: italic;
+    line-height: 1;
+}
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #95e1d3;
+    width: 150px;
+    height: 38px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
 }
