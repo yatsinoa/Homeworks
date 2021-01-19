@@ -35,7 +35,7 @@ img {
 .site-logo p {
     font-size: 30px;
     font-family: "Montserrat";
-    color: #95e1d3;
+    color: #fed136;
     font-weight: bold;
     line-height: 1;      
 }
@@ -55,17 +55,17 @@ img {
     text-decoration: none;
     font-size: 14px;
     font-family: "Montserrat";
-    color:#95e1d3;
+    color:#fed136;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
 }
 
 .navigation-list a:hover {
-    color: #f38181;
+    color: #fed136;
     border-bottom: 2px solid #f38181;
 }
-.banner-1 {
+.services-main{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -73,16 +73,8 @@ img {
     margin: 0 auto;
     margin-top: 80px;
 }
-.banner-1 p {
-    font-size: 24px;
-    font-family: "Kaushan Script";        
-    color: rgb(51, 51, 51);
-    line-height: 1;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-.banner-1 h3 {
+
+.services-banner-header{
     font-size: 30px;
     font-family: "Montserrat";
     color: rgb(51, 51, 51);
@@ -93,15 +85,20 @@ img {
     margin: 0 auto;
     margin-bottom: 40px;
 }
-.line-services {
-    border-bottom: 4px solid #f38181;
-    width: 60px;
-    margin: auto;
+.services-banner-description {
+    font-size: 24px;
+    font-family: "Kaushan Script";        
+    color: rgb(51, 51, 51);
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .services-provided {
     list-style: none;
     padding: 0;
+    padding-bottom: 124px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -113,20 +110,26 @@ img {
 
 }
 .service-item {
-    width: 380px;
+    width: 30%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 100px;
+    flex-direction: column;
+
 
 }
 .service-item-icon {
-    min-width: 82px;
+    display: flex;
+    width: 68px;
+    height: 68px;
+    border: 3px solid  #fed136;
+    border-radius:50%;
+    align-self: center;
 }
 .service-item-icon img {
     height: 30px;
     width: 30px;
     margin: 0 auto;
+    align-self: center;
+    
 }
 .service-item-description {
     display: flex;
@@ -140,13 +143,16 @@ img {
     text-transform: uppercase;
     line-height: 1;
     margin: 0;
+    margin-top: 26px;
+    text-align: center;
 }
 .service-item-description article {
     font-size: 15px;
     font-family: "Roboto";
     color: rgb(153, 153, 153);
     line-height: 1.6;
-    margin-top: 20px;
+    margin-top: 14px;
+    text-align: center;
         
 }
    
