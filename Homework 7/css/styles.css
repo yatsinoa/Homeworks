@@ -1,3 +1,28 @@
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Wisdom Script Regular'), url('../fonts/Wisdom_Script_AJ.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Medium'), url('../fonts/Montserrat-Medium.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Montserrat Bold'), url('../fonts/Montserrat-Bold.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+    }
+
 html {
     box-sizing: border-box;
 }
@@ -7,7 +32,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Medium', sans-serif;
     margin: 0;
 }
 
@@ -30,11 +55,11 @@ img {
     margin: 0 auto;
 }
 .site-logo p {
-    font-size: 30px;
-    font-family: "Montserrat";
+    font-size: 26px;
+    font-family: "Wisdom Script Regular";
     color: #fed136;
-    font-weight: bold;
-    line-height: 1;      
+    font-weight: normal;
+    line-height: 1;        
 }
 
 .navigation-list {
@@ -51,16 +76,16 @@ img {
 .navigation-list a {
     text-decoration: none;
     font-size: 14px;
-    font-family: "Montserrat";
-    color:#fed136;
+    font-family: "Montserrat Medium";
+    color: black;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
+    transition: 0,5s;
 }
 
 .navigation-list a:hover {
     color: #fed136;
-    border-bottom: 2px solid #f38181;
 }
 .services-main{
     display: flex;
@@ -68,28 +93,28 @@ img {
     width: 100%;
     align-items: baseline;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 90px;
+    margin-bottom: 76px;
 }
 
 .services-banner-header{
     font-size: 40px;
-    font-family: "Montserrat";
+    font-family: "Montserrat Bold";
     color: rgb(51, 51, 51);
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .services-banner-description {
     font-size: 16px;
-    font-family: "DroidSerif";        
+    font-family: "Myriad Pro Regular";        
     color: rgb(119, 119, 119);
     line-height: 1;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 20px;
 }
 
 .services-provided {
@@ -101,10 +126,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.services-provided li:nth-child(-n+3) {
-    margin-top: 65px;
-
 }
 .service-item {
     width: 30%;
@@ -134,27 +155,28 @@ img {
     
 }
 .service-item-description p {
-    font-size: 14px;
-    font-family: "Montserrat";
+    font-size: 18px;
+    font-family: "Montserrat Bold";
     color: rgb(51, 51, 51);
-    text-transform: uppercase;
     line-height: 1;
     margin: 0;
     margin-top: 26px;
     text-align: center;
 }
 .service-item-description article {
-    font-size: 15px;
-    font-family: "Roboto";
+    font-size: 14px;
+    font-family: "Myriad Pro Regular";
     color: rgb(153, 153, 153);
     line-height: 1.6;
     margin-top: 14px;
     text-align: center;
-        
 }
 .contact-us-form-container {
-    background-color: #222222;
-    background-image: url(img/Map_Image.png);
+    background: url(../img/Map_Image.png), #222222;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
 }
 .contact-us-banner{
     display: flex;
@@ -167,23 +189,22 @@ img {
 
 .contact-us-header{
     font-size: 40px;
-    font-family: "Montserrat";
+    font-family: "Montserrat Bold";
     color:rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 28px;
 }
 .contact-us-description {
     font-size: 16px;
-    font-family: "DroidSerif";        
+    font-family: "Myriad Pro Regular";        
     color: rgb(119, 119, 119);
     line-height: 1;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 20px;
 }
 .contact-us-section {
     display: flex;
@@ -208,18 +229,30 @@ img {
     height: 50px;
     width: 454px;
     border-radius: 5px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "Montserrat Bold";
+    color: rgb(187, 187, 187);
+    text-transform: uppercase;
 }
 .contact-us-section textarea{
     margin-left: 22px;
     height: 212px;
     width: 454px;
     border-radius: 5px;
+    font-size: 14px;
+    font-family: "Montserrat Bold";
+    color: rgb(187, 187, 187);
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 20px;
 }
-.contact-us-form button {
+.contact-us-form button{
     height: 64px;
     width: 240px;
     border: none;
     border-radius: 5px;
+    margin-bottom: 110px;
     background-color: #fed136;
     color: white;
     margin-top: 28px;
