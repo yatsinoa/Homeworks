@@ -52,7 +52,7 @@
                     <p class="services-banner-description">Proin iaculis purus consequat sem cure.</p>
                 </div>
             </div>
-           
+
             <div class="services">
                 <div class="services-container container">
                     <ul class="services-provided">
@@ -96,26 +96,34 @@
                     </ul>
                 </div>
             </div>
-            <div class="contact-us-form container">
+            <div class="contact-us-form-container">
+                <div class="contact-us-form-container container">
+                    <div class="contact-us-banner">
+                        <h1 class="contact-us-header">Contact us</h1>
+                        <p class="contact-us-description">Proin iaculis purus consequat sem cure.</p>
+                    </div>
+                    <form class="contact-us-form" action="get" action="#">
+                        <section class="contact-us-section">
+                            <ul class="personal-data">
+                                <li>
+                                    <input type="text" placeholder="Your name*" autofocus name="user_name" required>
+                                </li>
+                                <li>
+                                    <input type="email" placeholder="Your e-mail*" name="user_email" required>
+                                </li>
+                                <li>
+                                    <input type="text" placeholder="Subject" name="user_subject">
+                                </li>
+                            </ul>
+                            <textarea name="user_message" placeholder="Your message" id="" cols="30" rows="10"
+                                style="resize: none"></textarea>
+                        </section>
+                        <button type="submit">Send message</button>
+                    </form>
 
-                <form class="contact-us-form" action="get" action="#">
-                    <section class="contact-us-section"></section>
-                    <ul class="personal-data">
-                        <li>
-                            <input type="text" placeholder="Your name*" autofocus name="user_name" required>
-                        </li>
-                        <li>
-                            <input type="email" placeholder="Your e-mail*" name="user_email" required>
-                        </li>
-                        <li>
-                            <input type="text" placeholder="Subject" name="user_subject">
-                        </li>
-                    </ul>
-                    <textarea name="user_message" placeholder="Your message" id="" cols="30" rows="10"
-                        style="resize: none"></textarea>
-                    </section>
-                    <button type="submit">Submit</button>
-                </form>
+
+                </div>
+
 
 
 
