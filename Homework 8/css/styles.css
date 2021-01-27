@@ -1,0 +1,227 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat Medium', sans-serif;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 320px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.page-header-bg-container {
+    margin: 0 auto;
+    background-image: url('../img/header_bg_mobile.png');
+    background-position: center;
+    object-fit: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 136px;
+    padding-top: 20px;
+}
+.site-logo-tab {
+    display: none;
+}
+.navigation-links {
+    margin: 0 auto;
+    text-align: center;
+}
+.nav-link-container {
+    display: inline-block;
+    line-height: 34px;
+    width: 86px;
+    text-align: center;
+    border: transparent solid 1px;
+    transition: 0.2s;
+}
+.nav-link-container:hover {
+    line-height: 34px;
+    width: 86px;
+    border: white solid 1px;
+    border-radius: 20px;
+
+}
+.navigation-links a {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    line-height: 1.2
+}
+.header-inner {
+    margin: 0 auto;
+    margin-top: 118px;
+    text-align: center;
+
+}
+.site-logo-mobile p {
+    margin: 0;  
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+             
+}
+.our-purposes h3 {
+    margin: 0;
+    margin-top: 26px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;    
+}
+.our-purposes p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: white;
+    line-height: 1.2;
+}
+.find-partner-link {
+    margin: 0 auto;
+    margin-top: 14px;
+    width: 276px;
+    line-height: 40px;
+    border: #ff4e50 solid 2px;
+    background-color: #ff4e50;
+    border-radius: 50px;
+}
+.find-partner-link a {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+.main-content {
+    margin-top: 70px;
+}
+.people-purpose { 
+    margin: 0 auto;
+
+}
+.using-description {
+    margin: 0;
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.people-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.personal-card {
+    margin: 0 auto;
+    margin-top: 18px;
+    text-align: center;
+    max-width: 230px;
+    
+}
+.personal-card-image {
+    position: relative;
+
+}
+.card-main-image {
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+.card-main-image img {
+    margin: 0 auto;
+}
+.card-main-icon {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    bottom: 0;
+    right: 23%;
+    border: white solid 3px;
+    border-radius: 50%;
+}
+.card-main-icon.one {
+    background-color: #ff4e50;
+}
+.card-main-icon.two {
+    background-color: #ffa507;
+}
+.card-main-icon.three {
+    background-color: #1cd7ad;
+}
+.card-main-icon.four {
+    background-color: #4e73db;
+}
+.card-main-icon img {
+    height: 16px;
+    width: 16px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.persons-name {
+    margin: 0;
+    margin-top: 22px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+}
+
+.persons-basic-info {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(102, 102, 102);
+    line-height: 1.2;
+    text-align: center;
+}
+.see-more {
+    margin: 0 auto;
+    margin-top: 28px;
+    margin-bottom: 56px;
+    line-height: 40px;
+    width: 280px;
+    border: rgb(255, 78, 80) solid 2px;
+    border-radius: 50px;
+    text-align: center;
+
+}
+.see-more a {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 78, 80);
+    font-weight: bold;
+    line-height: 1.2;
+    
+}
+

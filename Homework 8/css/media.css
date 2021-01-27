@@ -1,0 +1,128 @@
+@media (min-width: 660px) {
+    .container {
+        width: 660px;
+        padding: 0;
+    }
+    .page-header-bg-container {
+        background-position: center;
+        background-image: url('../img/header-bg-tablet.png');
+        padding: 0;
+        padding-bottom: 234px;
+        padding-top: 36px;
+        
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .site-logo-tab {
+        display: block;
+        font-size: 20px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;    
+    }
+    .site-logo-tab p {
+        margin: 0;
+    }
+    .navigation-links {
+        margin: 0;
+    }
+    .header-inner {
+        margin-top: 140px;
+    }
+    .site-logo-mobile {
+        display: none;
+    }
+    .our-purposes h3 {
+        margin: 0 auto;
+        width: 550px;
+        font-size: 52px;
+    }
+    .our-purposes p {
+        font-size: 24px;
+        margin-top: 28px;     
+    }
+    .find-partner-link {
+        width: 228px;
+        line-height: 38px;
+        margin-top: 32px;     
+    }
+    .main-content {
+        margin-top: 78px;
+    }
+    .people-list {
+        margin: 0 auto;
+        width: 492px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+    }
+    .personal-card {
+        margin-top: 54px;
+    }
+  
+    
+    .personal-card {
+        width: 50%;
+    }
+    .personal-card.one {
+        order: 1;
+    }
+    .personal-card.two {
+        order: 3;
+    }
+    .personal-card.three {
+        order: 2;
+    }
+    .personal-card.four {
+        order: 4;
+    }
+    .personal-card:nth-child(1), .personal-card:nth-child(3) {
+        margin-top: 0;
+    }
+    
+    .see-more {
+        width: 190px;
+        margin: 0 auto;
+        margin-top: 36px;
+        margin-bottom: 56px;
+    }
+}
+
+    @media (min-width: 940px)  {
+    .container {
+        width: 940px;
+        padding: 0;
+    }
+    .page-header-bg-container {
+        background-position: center;
+        background-image: url('../img/header-bg-screen.png');
+        padding: 0;
+        padding-bottom: 234px;
+        padding-top: 28px;
+        
+    }
+    .people-list {
+        width: 940px;
+    }
+    .personal-card {
+        width: 25%;
+    }
+    .personal-card {
+        margin-top: 34px;
+    }
+    .personal-card:nth-child(1), .personal-card:nth-child(3) {
+        margin-top: 34px;
+    }
+    
+
+    }
+
+
