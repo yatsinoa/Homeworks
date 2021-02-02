@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat Medium', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
@@ -65,7 +65,7 @@ a {
     font-weight: bold;
     line-height: 1.2
 }
-.header-inner {
+.general-information {
     margin: 0 auto;
     margin-top: 118px;
     text-align: center;
@@ -81,7 +81,7 @@ a {
     line-height: 1;
              
 }
-.our-purposes h3 {
+.purposes-title {
     margin: 0;
     margin-top: 26px;
     font-size: 30px;
@@ -91,24 +91,36 @@ a {
     text-transform: uppercase;
     line-height: 1.2;    
 }
-.our-purposes p {
+.purposes-description {
     margin: 0;
     margin-top: 10px;
     font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: "Roboto";
     color: white;
     line-height: 1.2;
 }
-.find-partner-link {
-    margin: 0 auto;
+.main_button_style {
+    margin: 0 auto; 
     margin-top: 14px;
-    width: 276px;
     line-height: 40px;
     border: #ff4e50 solid 2px;
-    background-color: #ff4e50;
     border-radius: 50px;
+    transition: 0.5ms;
+    text-align: center;
 }
-.find-partner-link a {
+.button-link--1 {
+    margin: 0;
+    margin-top: 16px;
+    background-color: #ff4e50;
+
+}
+.button-link--1:hover {
+    border: #e94e50ce solid 2px;
+    background-color: #e94e50ce;
+}
+.button-link--1 a {
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
@@ -142,7 +154,6 @@ a {
     margin: 0 auto;
     margin-top: 18px;
     text-align: center;
-    max-width: 230px;
     
 }
 .personal-card-image {
@@ -162,7 +173,7 @@ a {
     width: 32px;
     position: absolute;
     bottom: 0;
-    right: 23%;
+    right: 30%;
     border: white solid 3px;
     border-radius: 50%;
 }
@@ -204,24 +215,20 @@ a {
     line-height: 1.2;
     text-align: center;
 }
-.see-more {
+.button-link--2 {
     margin: 0 auto;
     margin-top: 28px;
     margin-bottom: 56px;
-    line-height: 40px;
-    width: 280px;
-    border: rgb(255, 78, 80) solid 2px;
-    border-radius: 50px;
-    text-align: center;
-
 }
-.see-more a {
+.button-link--2:hover {
+    background-color: #f0e4e46e;
+}
+.button-link--2 a {
     margin: 0;
     font-size: 14px;
     font-family: "Montserrat";
-    color: rgb(255, 78, 80);
+    color: #ff4e50;
     font-weight: bold;
-    line-height: 1.2;
-    
+    line-height: 1.2;  
 }
 

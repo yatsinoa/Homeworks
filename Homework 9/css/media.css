@@ -1,5 +1,4 @@
-
-@media (min-width: 660px) {
+@media (min-width: 768px) {
     .container {
         width: 660px;
         padding: 0;
@@ -12,10 +11,10 @@
         padding-top: 36px;
         
     }
-    .navigation {
-        display: flex;
+    .page-header {
         justify-content: space-between;
         align-items: center;
+        flex-wrap: nowrap;
     }
     .site-logo-tab {
         display: block;
@@ -29,6 +28,7 @@
     }
     .site-logo-tab p {
         margin: 0;
+        align-self: center;
     }
     .navigation-links {
         margin: 0;
@@ -39,58 +39,39 @@
     .site-logo-mobile {
         display: none;
     }
-    .our-purposes h3 {
+    .purposes-title {
         margin: 0 auto;
         width: 550px;
         font-size: 52px;
     }
-    .our-purposes p {
+    .purposes-description {
+        padding: 0;
         font-size: 24px;
         margin-top: 28px;     
     }
-    .find-partner-link {
-        width: 228px;
+    .button-link--1  {
         line-height: 38px;
         margin-top: 32px;     
     }
+    
     .main-content {
         margin-top: 78px;
     }
+    .team-list [class*="col-"]:nth-child(-n+2) {
+        margin-top: 0;
+
+    }
     .people-list {
         margin: 0 auto;
-        width: 492px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        align-items: flex-start;
-
+        
     }
     .personal-card {
         margin-top: 54px;
-    }
-  
-    
-    .personal-card {
-        width: 50%;
-    }
-    .personal-card.one {
-        order: 1;
-    }
-    .personal-card.two {
-        order: 3;
-    }
-    .personal-card.three {
-        order: 2;
-    }
-    .personal-card.four {
-        order: 4;
-    }
-    .personal-card:nth-child(1), .personal-card:nth-child(3) {
-        margin-top: 0;
+        max-width: 100%;
     }
     
-    .see-more {
-        width: 190px;
+    
+    .button-link--2 {
         margin: 0 auto;
         margin-top: 36px;
         margin-bottom: 56px;
@@ -114,13 +95,16 @@
         width: 940px;
     }
     .personal-card {
-        width: 25%;
+        width: 100%;
     }
     .personal-card {
         margin-top: 34px;
     }
-    .personal-card:nth-child(1), .personal-card:nth-child(3) {
+    .personal-card:nth-child(-n+2) {
         margin-top: 34px;
+    }
+    .card-main-icon {
+        right: 20%;
     }
     
 
