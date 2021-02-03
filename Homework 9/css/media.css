@@ -57,13 +57,14 @@
     .main-content {
         margin-top: 78px;
     }
-    .team-list [class*="col-"]:nth-child(-n+2) {
-        margin-top: 0;
+    
+    .people-list {
+        margin: 0 auto; 
 
     }
-    .people-list {
-        margin: 0 auto;
-        
+    .people-list [class*="col-"]:nth-child(-n+2) {
+        margin-top: 38px;
+
     }
     .personal-card {
         margin-top: 54px;
@@ -92,7 +93,7 @@
         
     }
     .people-list {
-        width: 940px;
+        margin: 0 auto;
     }
     .personal-card {
         width: 100%;
