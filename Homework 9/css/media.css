@@ -59,8 +59,8 @@
     }
     
     .people-list {
-        margin: 0 auto; 
-
+        margin: 0 auto;
+        padding-left: 0;
     }
     .people-list [class*="col-"]:nth-child(-n+2) {
         margin-top: 38px;
