@@ -1,0 +1,397 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.background-cover {
+    background: linear-gradient(
+    to bottom, 
+    rgba(231, 129, 130, 0.9) 0%,
+    rgba(252, 226, 138, 0.9) 100%), url(../img/background_image_desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background-cover-container {
+    margin: 0 auto;  
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+.site-logo p {
+    font-size: 3em;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: bold;
+    line-height: 1;      
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-main__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    transition: 0.4s;
+
+}
+.nav-main__list a:hover {
+    color: #fce38a;
+    border-bottom: 2px solid #fce38a;
+}
+
+.nav-main__link {
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: "Montserrat";
+    color:white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.header-tools {
+    display: flex;
+    justify-content: space-around;
+}
+
+.additional-tools {
+    text-decoration: none;
+    fill: white;
+}
+.additional-tools:last-child {
+    padding-right: 0;
+}
+
+.main-banner {
+    margin: 0 auto;
+    margin-top: 140px;
+}
+.main-banner__header {
+    margin: 0;
+    font-size: 7.2em;
+    font-family: "Kaushan Script";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+.main-banner__descriprion {
+    margin: 0;
+    margin-top: 31px;
+    margin-bottom: 124px;
+    font-size: 15em;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+}
+.main-banner__button {
+    text-align: center;
+}
+
+.main-banner__link {
+    border: 2px solid white;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 3.5;
+    text-align: center;
+    transition: 0.5s;
+}
+.main-banner__link:hover {  
+    color: rgb(231, 129, 130);
+    border: 2px solid  rgb(231, 129, 130);
+}
+
+.multiple-banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: baseline;
+    margin: 0 auto;
+    
+}
+.multiple-banner__intro {
+    font-size: 2.4em;
+    font-family: "Kaushan Script";        
+    color: rgb(51, 51, 51);
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.multiple-banner__header {
+    font-size: 3em;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.multiple-banner__line {
+    border-bottom: 4px solid #f38181;
+    width: 60px;
+    margin: auto;
+}
+.multiple-banner__1 {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 16px;
+
+}
+.service-card__icon {
+    fill: #95e1d3;
+    
+}
+.service-card__icon svg {
+    margin: 0 auto;
+
+}
+.service-card__description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    
+}
+.service-card__name {
+    font-size: 1.4em;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+}
+.service-card__objectives {
+    font-size: 1.5em;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    margin-top: 20px;
+        
+}
+
+.multiple-banner__2 article{
+    font-size: 1.5em;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 94px;
+}
+.team-list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    position: relative;
+    transition: opacity 0.4s; 
+    
+}
+
+.team-card:hover .image-overlay{
+    opacity: 0.9;  
+}
+.team-card img {
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+}
+.image-layer__bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: #95e1d3;
+
+}
+
+.image-layer {
+    position: relative;
+    background: #fce38a; 
+}
+
+.image-layer:hover .image-layer-content{
+    transform: translate(-10px, -10px);
+}
+
+.image-layer-content {
+    transition: transform 0.5s;
+}
+
+.image-overlay__gradient {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: linear-gradient(#ee898a, #e5cf81);
+    opacity: 0.9;
+
+}
+
+.image-overlay {
+    opacity: 0;
+}
+
+.image-overlay-inner__icons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    justify-content: center;
+    
+}
+.image-overlay-inner__iconsbg:hover {
+    background-color: #f38181;
+}
+
+.image-overlay-inner__iconsbg {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    background-color: #fce38a;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+}
+.image-overlay-inner__iconsbg img {
+    margin: 0;
+    padding: 0;
+}
+.team-card-description {
+    margin-top: 30px;
+    text-align: center;
+}
+.team-card-description__name {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+      
+}
+.team-card-description__occupation {
+    margin-top: 18px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    font-style: italic;
+    line-height: 1;
+      
+}
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    border-top: 1px solid rgb(229, 229, 229);
+    margin-top: 70px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: center;
+    
+}
+.footer-copyrights__reserved {
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    line-height: 1;
+}
+.footer-copyrights__colortext {
+    color: #46bfa9;
+}
+.contacting-form {
+    display: flex;
+    align-items: center;
+}
+    
+.contacting-form__email {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5px;
+    border: 1px solid rgb(229, 229, 229);
+    border-right: none;
+    width: 230px;
+    height: 38px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(204, 204, 204);
+    font-style: italic;
+    line-height: 1;
+}
+.contacting-form__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #95e1d3;
+    border: none;
+    width: 150px;
+    height: 38px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
