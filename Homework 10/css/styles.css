@@ -35,7 +35,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    height: 80px;
 }
 .site-logo p {
     font-size: 3em;
@@ -56,7 +56,7 @@ img {
     align-items: center;
     margin: 0 auto;
     padding: 0;
-    transition: 0.4s;
+    transition: 0.5s;
 
 }
 .nav-main__list a:hover {
@@ -82,6 +82,10 @@ img {
 .additional-tools {
     text-decoration: none;
     fill: white;
+    transition: 0.5s;
+}
+.additional-tools:hover {
+    fill: #fce38a;
 }
 .additional-tools:last-child {
     padding-right: 0;
@@ -101,8 +105,8 @@ img {
 }
 .main-banner__descriprion {
     margin: 0;
-    margin-top: 31px;
-    margin-bottom: 124px;
+    margin-top: 5px;
+    margin-bottom: 110px;
     font-size: 15em;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
@@ -311,10 +315,15 @@ img {
     align-items: center;
     margin-right: 1px;
 }
-.image-overlay-inner__iconsbg img {
+.image-overlay-inner__iconsbg svg{
+    fill: #f38181;
     margin: 0;
     padding: 0;
 }
+.image-overlay-inner__iconsbg:hover svg{
+    fill: white;
+}
+
 .team-card-description {
     margin-top: 30px;
     text-align: center;

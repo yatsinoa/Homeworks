@@ -99,6 +99,22 @@
         margin: 0 auto;
         margin-bottom: 40px;
     }
+    .footer-block {
+        flex-direction: column;
+    }
+    .footer-copyrights {
+        order: 2;
+    }
+    .contact_us {
+        order: 1;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .contacting-form__email {     
+        width: 300px;
+        height: 38px;
+        font-size: 1.5em;
+    }
     
   
     
@@ -110,7 +126,7 @@
         padding: 10px;
     }
     .background-cover {
-        padding-bottom: 230px;
+        padding-bottom: 210px;
     }
     .nav-main__list {
         width: 490px;
