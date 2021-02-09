@@ -151,11 +151,20 @@
     .footer-block {
         flex-direction: row;
     }
+    .footer-copyrights {
+        order: 1;
+    }
+    .contact_us {
+        order: 2;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
     .contacting-form__email {     
         width: 230px;
         height: 38px;
         font-size: 15px;
     }
+    
 
 
 
