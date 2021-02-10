@@ -1,0 +1,175 @@
+@media (min-width: 320px) and (max-width: 659px) {
+    .container {
+        width: 320px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    .background-cover {
+        padding-bottom: 100px;
+    }
+    .nav-main {
+        display: none;
+    }
+    .additional-tools {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .main-banner__header {
+        font-size: 3em;
+    }
+    .main-banner__descriprion {
+        font-size: 5em;
+    }
+    .multiple-banner__1 {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .service-card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .team-card {
+        margin-bottom: 40px;
+    }
+    .multiple-banner__2 {
+        margin-top: 50px;
+    }
+    .footer-block {
+        flex-direction: column;
+    }
+    .footer-copyrights {
+        order: 2;
+    }
+    .contact_us {
+        order: 1;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .contacting-form__email {     
+        width: 150px;
+        height: 38px;
+        font-size: 1.5em;
+    }
+
+
+}
+@media (min-width: 660px) {
+    .container {
+        margin: 0 auto;
+        width: 660px;
+        padding: 10px;
+    }
+    .background-cover {
+        padding-bottom: 160px;
+    }
+    
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-main__list {
+        width: 380px;
+    }
+    .additional-tools {
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+    .additional-tools:nth-child(2) {
+        padding-left: 36px;
+    }
+    .additional-tools__menu {
+        display: none;
+    }
+    .main-banner__header {
+        font-size: 5em;
+    }
+    .main-banner__descriprion {
+        font-size: 10em;
+    }
+    .multiple-banner__1 {
+        margin-bottom: 40px;
+    }
+    .service-card {
+        width: 50%;
+        margin-bottom: 30px;
+    
+    }
+    .team-card {
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .footer-block {
+        flex-direction: column;
+    }
+    .footer-copyrights {
+        order: 2;
+    }
+    .contact_us {
+        order: 1;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .contacting-form__email {     
+        width: 300px;
+        height: 38px;
+        font-size: 1.5em;
+    }
+    
+  
+    
+}
+
+    @media (min-width: 1200px)  {
+    .container {
+        width: 1200px;
+        padding: 10px;
+    }
+    .background-cover {
+        padding-bottom: 210px;
+    }
+    .nav-main__list {
+        width: 490px;
+    }
+    .main-banner__header {
+        font-size: 7.2em;
+    }
+    .main-banner__descriprion {
+        font-size: 15em;
+    }
+    .multiple-banner__1 {
+        margin-bottom: 60px;
+    }
+    .service-card {
+        width: 33.3%;
+        margin-bottom: 80px;
+    
+    }
+    .team-card {
+        margin-bottom: 80px;
+    }
+    .footer-block {
+        flex-direction: row;
+    }
+    .footer-copyrights {
+        order: 1;
+    }
+    .contact_us {
+        order: 2;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .contacting-form__email {     
+        width: 230px;
+        height: 38px;
+        font-size: 15px;
+    }
+    
+
+
+
+    
+
+}
+
+
